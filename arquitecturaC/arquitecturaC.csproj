@@ -90,6 +90,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CEentidad\CEentidad.csproj">
+      <Project>{7db63f9c-3c50-485b-aa53-156d152d1252}</Project>
+      <Name>CEentidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CReglas\CReglas.csproj">
+      <Project>{654d3112-05a3-4568-a973-6b84715c8632}</Project>
+      <Name>CReglas</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -46,12 +46,6 @@
     <Compile Include="CRcitas.cs" />
     <Compile Include="CRmedico.cs" />
     <Compile Include="CRpaciente.cs" />
-    <Compile Include="formulario1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formulario1.Designer.cs">
-      <DependentUpon>formulario1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
