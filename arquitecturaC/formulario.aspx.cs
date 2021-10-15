@@ -47,19 +47,23 @@ namespace arquitecturaC
             }
         }
 
-        protected void btnguardarcita_Click(object sender, EventArgs e)
+        protected void btnguardar_Click(object sender, EventArgs e)
         {
-            OEcitas.Codcita = txtcita.Text;
+            OEcitas.Codcita = Convert.ToString(txtcita.Text);
             OEcitas.Fecha = Convert.ToDateTime(txtfecha.Text);
+            OEcitas.Hora = Convert.ToDateTime(txthora.Text);
+            OEcitas.Idpaciente = Convert.ToString(txtidpaciente.Text);
+            OEcitas.Idmedico = Convert.ToString(txtidmedico.Text);
             OEcitas.Valor = Convert.ToInt32(txtvalor.Text);
-
+            OEcitas.Diagnostico = Convert.ToString(txtdiagnostico.Text);
+            OEcitas.Nomacompañante = Convert.ToString(txtnomacomp.Text);
             if (ONcitas.guardar_cita(OEcitas))
             {
-                lblresultado.Text = "Cita Guardada";
+                lblmensaje.Text = "Cita Guardad";
             }
             else
             {
-                lblresultado.Text = "Error al guardar cita";
+                lblmensaje.Text = "Cita no Guardada";
                 //asi se hace anular
             }
         }

@@ -40,6 +40,13 @@
         }
 =======
 >>>>>>> 4d5e6e2c4c8be6f3adcbb7c7486729c6db3d930a
+        .auto-style10 {
+            height: 23px;
+        }
+        .auto-style11 {
+            width: 279px;
+            height: 23px;
+        }
     </style>
 </head>
 <body>
@@ -53,8 +60,7 @@
                         <asp:TextBox ID="txtcita" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
                     </td>
                     <td>
-                        <asp:Button ID="btnconsultarcita" runat="server" OnClick="btnconsultarcita_Click" Text="Consultar Cita" />
-                    </td>
+                        &nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style2">FECHA:</td>
@@ -77,8 +83,7 @@
                         <asp:TextBox ID="txtidpaciente" runat="server"></asp:TextBox>
                     </td>
                     <td class="auto-style9">
-                        <asp:Button ID="btnconsultarPaciente" runat="server" OnClick="btnconsultarPaciente_Click" Text="Consultar Paciente" />
-                    </td>
+                        &nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style2">
@@ -105,8 +110,7 @@
                         <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
                     </td>
                     <td>
-                        <asp:Button ID="btnguardarcita" runat="server" OnClick="btnguardarcita_Click" Text="Guardar Cita" />
-                    </td>
+                        &nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style2">VALOR:</td>
@@ -114,8 +118,7 @@
                         <asp:TextBox ID="txtvalor" runat="server"></asp:TextBox>
                     </td>
                     <td>
-                        <asp:Label ID="lblmensaje" runat="server" Text="Label"></asp:Label>
-                    </td>
+                        &nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style2">DIAGNOSTICO:</td>
@@ -133,8 +136,26 @@
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style3">
+                        <asp:Label ID="lblmensaje" runat="server" Text="Label"></asp:Label>
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style3">&nbsp;</td>
                     <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        <asp:Button ID="btnconsultar" runat="server" OnClick="btnconsultarPaciente_Click" Text="Consultar" />
+                    </td>
+                    <td class="auto-style3">
+                        <asp:Button ID="btneliminar" runat="server" OnClick="btnguardarcita_Click" Text="Eliminar" />
+                    </td>
+                    <td>
+                        <asp:Button ID="btnguardar" runat="server" OnClick="btnconsultarcita_Click" Text="Guardar" />
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
@@ -147,9 +168,9 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style10"></td>
+                    <td class="auto-style11"></td>
+                    <td class="auto-style10"></td>
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
@@ -157,19 +178,9 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style10"></td>
+                    <td class="auto-style11"></td>
+                    <td class="auto-style10"></td>
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
@@ -180,7 +191,7 @@
                     <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style3">&nbsp;</td>
 =======
-                    <td>Prueba de de github</td>
+                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
