@@ -1,6 +1,30 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="formulario.aspx.cs" Inherits="arquitecturaC.formulario" %>
 
 <!DOCTYPE html>
+<script runat="server">
+
+    protected void btnconsultarcita_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void btnguardarcita_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void btnconsultar_Click(object sender, EventArgs e)
+    {
+
+    }
+
+
+    protected void btnconsultarPaciente_Click(object sender, EventArgs e)
+    {
+
+    }
+</script>
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
