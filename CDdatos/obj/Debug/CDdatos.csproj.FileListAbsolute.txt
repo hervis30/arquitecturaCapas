@@ -1,0 +1,9 @@
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CDdatos\bin\Debug\CDdatos.dll
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CDdatos\bin\Debug\CDdatos.pdb
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CDdatos\bin\Debug\CEentidad.dll
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CDdatos\bin\Debug\CEentidad.pdb
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CDdatos\obj\Debug\CDdatos.csproj.AssemblyReference.cache
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CDdatos\obj\Debug\CDdatos.csproj.CoreCompileInputs.cache
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CDdatos\obj\Debug\CDdatos.csproj.CopyComplete
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CDdatos\obj\Debug\CDdatos.dll
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CDdatos\obj\Debug\CDdatos.pdb

@@ -16,9 +16,9 @@ namespace CReglas
         {
             return odatmedico.Guardar_medico(oentmedico);
         }
-        public bool anula_medico(CEmedico oentmedico)
+        public bool eliminar_medico(CEmedico oentmedico)
         {
-            return odatmedico.anula_medico(oentmedico);
+            return odatmedico.Eliminar_medico(oentmedico);
         }
         public DataSet consultar_medico(CEmedico oentmedico)
         {

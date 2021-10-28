@@ -35,13 +35,13 @@ namespace CDdatos
                 throw new Exception(err.Message);
             }
         }
-        public bool anula_medico(CEmedico omedico)
+        public bool Eliminar_medico(CEmedico omedico)
         {
             try
             {
                 ocmd.CommandType = CommandType.StoredProcedure;
                 ocmd.Connection = oconexion.conectar("BDhospital");
-                ocmd.CommandText = "anula_medico";
+                ocmd.CommandText = "eliminar_medico";
                 ocmd.Parameters.Add("@idmedico", omedico.Idmedico);
                 ocmd.ExecuteNonQuery();
                 return true;
@@ -66,7 +66,7 @@ namespace CDdatos
                 da.Fill(ds);
                 return ds;
             }
-            catch (Exception)
+            catch (Exception err)
             {
 
                 throw;

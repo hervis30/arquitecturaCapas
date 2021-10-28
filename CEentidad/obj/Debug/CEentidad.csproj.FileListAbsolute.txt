@@ -1,0 +1,6 @@
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CEentidad\bin\Debug\CEentidad.dll
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CEentidad\bin\Debug\CEentidad.pdb
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CEentidad\obj\Debug\CEentidad.csproj.AssemblyReference.cache
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CEentidad\obj\Debug\CEentidad.csproj.CoreCompileInputs.cache
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CEentidad\obj\Debug\CEentidad.dll
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CEentidad\obj\Debug\CEentidad.pdb

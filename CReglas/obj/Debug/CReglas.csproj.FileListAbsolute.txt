@@ -1,0 +1,11 @@
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CReglas\obj\Debug\CReglas.csproj.AssemblyReference.cache
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CReglas\obj\Debug\CReglas.csproj.CoreCompileInputs.cache
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CReglas\bin\Debug\CReglas.dll
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CReglas\bin\Debug\CReglas.pdb
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CReglas\bin\Debug\CDdatos.dll
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CReglas\bin\Debug\CEentidad.dll
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CReglas\bin\Debug\CDdatos.pdb
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CReglas\bin\Debug\CEentidad.pdb
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CReglas\obj\Debug\CReglas.csproj.CopyComplete
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CReglas\obj\Debug\CReglas.dll
+C:\Users\Hervis Jonathan\Desktop\Cesde-2\SegundoSemestre\LenguageProgramacion\arquitecturaCapas\CReglas\obj\Debug\CReglas.pdb

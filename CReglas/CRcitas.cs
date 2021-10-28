@@ -19,9 +19,9 @@ namespace CReglas
         {
             return odatcitas.Guardar_cita(oentcita);
         }
-        public bool anula_cita(CEcitas oentcita)
+        public bool eliminar_cita(CEcitas oentcita)
         {
-            return odatcitas.anula_cita(oentcita);
+            return odatcitas.Eliminar_cita(oentcita);
         }
         public DataSet consultar_cita(CEcitas oentcita)
         {

@@ -17,9 +17,9 @@ namespace CReglas
         {
             return odatpaciente.Guardar_Paciente(oentpaciente);
         }
-        public bool anula_paciente(CEpaciente oentpaciente)
+        public bool eliminar_paciente(CEpaciente oentpaciente)
         {
-            return odatpaciente.anula_paciente(oentpaciente);
+            return odatpaciente.Eliminar_paciente(oentpaciente);
         }
         public DataSet consultar_paciente(CEpaciente oentpaciente)
         {

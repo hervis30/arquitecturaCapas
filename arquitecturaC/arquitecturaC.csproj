@@ -67,17 +67,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="formulario.aspx" />
+    <Content Include="formularioCitas.aspx" />
+    <Content Include="formularioMedico.aspx" />
+    <Content Include="formularioPaciente.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="formulario.aspx.cs">
-      <DependentUpon>formulario.aspx</DependentUpon>
+    <Compile Include="formularioCitas.aspx.cs">
+      <DependentUpon>formularioCitas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="formulario.aspx.designer.cs">
-      <DependentUpon>formulario.aspx</DependentUpon>
+    <Compile Include="formularioCitas.aspx.designer.cs">
+      <DependentUpon>formularioCitas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="formularioMedico.aspx.cs">
+      <DependentUpon>formularioMedico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="formularioMedico.aspx.designer.cs">
+      <DependentUpon>formularioMedico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="formularioPaciente.aspx.cs">
+      <DependentUpon>formularioPaciente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="formularioPaciente.aspx.designer.cs">
+      <DependentUpon>formularioPaciente.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

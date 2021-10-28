@@ -39,13 +39,13 @@ namespace CDdatos
             }
         }
 
-        public bool anula_cita(CEcitas ocitas)
+        public bool Eliminar_cita(CEcitas ocitas)
         {
             try
             {
                 ocmd.CommandType = CommandType.StoredProcedure;
                 ocmd.Connection = oconexion.conectar("BDhospital");
-                ocmd.CommandText = "anula_cita";
+                ocmd.CommandText = "eliminar_cita";
                 ocmd.Parameters.Add("@codcita", ocitas.Codcita);
                 ocmd.ExecuteNonQuery();
                 return true;
@@ -62,14 +62,14 @@ namespace CDdatos
             {
                 ocmd.CommandType = CommandType.StoredProcedure;
                 ocmd.Connection = oconexion.conectar("BDhospital");
-                ocmd.CommandText = "consultar_citas";
+                ocmd.CommandText = "consultar_cita";
                 ocmd.Parameters.Add("@Codcita", ocitas.Codcita);
                 SqlDataAdapter da = new SqlDataAdapter(ocmd);
                 DataSet ds = new DataSet();
                 da.Fill(ds);
                 return ds;
             }
-            catch (Exception)
+            catch (Exception err)
             {
 
                 throw;
